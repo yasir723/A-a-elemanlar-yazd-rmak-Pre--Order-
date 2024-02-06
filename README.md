@@ -21,15 +21,15 @@ class tree
 - `right`: Düğüme bağlı olan sağ alt düğümü belirtir.
 - `left`: Düğüme bağlı olan sol alt düğümü belirtir.
 
-## `mirror` Metodu
+## `yazdır` Metodu
 ```csharp
-        static void yazdir(tree node)
+        static void yazdır(tree node)
         {
             if (node == null) return;
 
             Console.WriteLine(node.value);
-            yazdir(node.left);
-            yazdir(node.right);
+            yazdır(node.left);
+            yazdır(node.right);
         }
 ```
 
