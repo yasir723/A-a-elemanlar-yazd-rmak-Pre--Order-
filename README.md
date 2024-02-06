@@ -28,6 +28,7 @@ static void yazdır(tree node)
     if (node == null) return;
 
     Console.WriteLine(node.value);
+
     yazdır(node.left);
     yazdır(node.right);
 }
