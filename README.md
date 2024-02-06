@@ -23,14 +23,14 @@ class tree
 
 ## `yazdır` Metodu
 ```csharp
-        static void yazdır(tree node)
-        {
-            if (node == null) return;
+static void yazdır(tree node)
+{
+    if (node == null) return;
 
-            Console.WriteLine(node.value);
-            yazdır(node.left);
-            yazdır(node.right);
-        }
+    Console.WriteLine(node.value);
+    yazdır(node.left);
+    yazdır(node.right);
+}
 ```
 
 ## Parametreler
