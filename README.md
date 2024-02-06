@@ -39,3 +39,10 @@ static void yazdır(tree node)
 - `node`: Ağaçtaki mevcut düğüm.
 
 ## İşleyiş
+1. İlk olarak gönderilen ağaç null ise, null döndürülür.
+2. Null değilse, mevcut düğümün değeri yazdırılır.
+3. Yazdırıldıktan sonra sola düğüme geçilir.
+4. Ve yine sola gitmeye devam edilir, null değer alana kadar.
+5. En sola gidildiğinde null döndürülür ve bu sefer en solun sağına gidilir ve taşıdığı değer yazdırılır.
+6. Kök düğümün sol tarafı tamamlandıktan sonra kök düğümün sağ tarafına gidilir ve aynı işlem tekrarlanır.
+
