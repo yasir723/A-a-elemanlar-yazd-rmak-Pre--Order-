@@ -20,3 +20,21 @@ class tree
 - `value`: Düğümün değerini temsil eder.
 - `right`: Düğüme bağlı olan sağ alt düğümü belirtir.
 - `left`: Düğüme bağlı olan sol alt düğümü belirtir.
+
+## `mirror` Metodu
+```csharp
+        static void yazdir(tree node)
+        {
+            if (node == null) return;
+
+            Console.WriteLine(node.value);
+            yazdir(node.left);
+            yazdir(node.right);
+        }
+```
+
+## Parametreler
+
+- `node`: Ağaçtaki mevcut düğüm.
+
+## İşleyiş
