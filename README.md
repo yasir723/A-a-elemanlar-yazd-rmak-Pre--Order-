@@ -4,7 +4,6 @@ Genelde Ağaç veri yapısında bulunan elemanları yazdırmak için Pre-Order y
 
 
 Bu C# sınıfı, binary ağaç veri yapısını oluşturmak için kullanılır
-
 ## `tree` Sınıfı
 
 ```csharp
