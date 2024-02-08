@@ -46,3 +46,10 @@ static void yazdır(tree node)
 5. En sola gidildiğinde null döndürülür ve bu sefer en solun sağına gidilir ve taşıdığı değer yazdırılır.
 6. Kök düğümün sol tarafı tamamlandıktan sonra kök düğümün sağ tarafına gidilir ve aynı işlem tekrarlanır.
 
+<div align="center">
+    <h3>Binary Ağaç Elemanları Pre-Order Yazdırma Aşamaları</h3>
+</div>
+
+[![Yazdırma Adımları](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/17d9ed6a-9a5b-4e64-a13f-d2312161d337)](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/b8d06cfc-8fef-4c9d-aaf1-9fa3dff99040)
+
+
