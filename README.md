@@ -38,6 +38,10 @@ static void yazdır(tree node)
 
 - `node`: Ağaçtaki mevcut düğüm.
 
+## Avantaj
+
+- En yaygın yazdırma algoritması ve ağaçtaki elemanlar `okunabilir basit` bir şekilde yazdırmayı sağlar.
+
 ## İşleyiş
 1. İlk olarak gönderilen ağaç null ise, null döndürülür.
 2. Null değilse, mevcut düğümün değeri yazdırılır.
